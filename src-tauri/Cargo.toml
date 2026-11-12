@@ -1,0 +1,24 @@
+[package]
+name = "clash-traffic-monitor"
+version = "0.1.0"
+description = "A lightweight macOS MenuBar traffic monitor for Clash Verge"
+authors = ["Huanst"]
+edition = "2021"
+
+[lib]
+name = "clash_traffic_monitor_lib"
+crate-type = ["staticlib", "cdylib", "rlib"]
+
+[build-dependencies]
+tauri-build = { version = "2", features = [] }
+
+[dependencies]
+tauri = { version = "2", features = ["tray-icon"] }
+tauri-plugin-shell = "2"
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+tokio = { version = "1", features = ["full"] }
+tokio-tungstenite = { version = "0.24", features = ["connect"] }
+futures-util = "0.3"
+url = "2.5"
+regex = "1.10"
