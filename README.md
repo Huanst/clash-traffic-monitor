@@ -7,6 +7,8 @@
 > Built with care. — Huanst
 
 ---
+<img width="852" height="1172" alt="image" src="https://github.com/user-attachments/assets/a9011112-0357-42fe-b4b9-a491138a9fc3" />
+
 
 ## 💡 开发初衷
 
