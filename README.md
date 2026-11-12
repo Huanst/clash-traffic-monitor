@@ -93,7 +93,7 @@
 
 ```bash
 # 1. 克隆项目并进入目录
-git clone https://github.com/<your-username>/clash-traffic-monitor.git
+git clone https://github.com/Huanst/clash-traffic-monitor.git
 cd clash-traffic-monitor
 ```
 
